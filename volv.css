@@ -1,13 +1,25 @@
 body{
     margin: 0px;
+    color: #323232;
 }
 
 .header{
+    display: grid;
     padding: 40px;
+    grid-template-columns: auto auto;
 }
 
-.header > img{
+.volv-logo{
     height: 30px;
+    justify-self: flex-start;
+}
+
+.instagram{
+    justify-self: flex-end;
+}
+
+.instagram > img{
+    height: 20px;
 }
 
 .content{
@@ -28,8 +40,8 @@ body{
     background-position: left;
     background-size: 30%;
     background-position-x: -10%;
-    background-position-y: 20%;
-    background-size: 330px;
+    background-position-y: 30%;
+    background-size: 365px;
 }
 
 .evolve-with-us{
@@ -42,14 +54,15 @@ body{
 
 .read-less-know-more > h1{
     font-weight: 300;
-    font-size: 54px;
+    font-size: 57px;
     text-align: center;
     line-height: 130%;
+    letter-spacing: -1px;
 }
 
 .read-less-know-more > p{
     font-weight: 300;
-    font-size: 32px;
+    font-size: 31px;
     text-align: center;
     line-height: 150%;
 }
