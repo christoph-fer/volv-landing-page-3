@@ -26,9 +26,10 @@ body{
     font-family: 'Lato', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
     grid-template-areas: "readlessknowmore readlessknowmore"
-    "evolvewithus phone";
+    "evolvewithus phone"
+    "footer footer";
 }
 
 .read-less-know-more{
@@ -42,14 +43,45 @@ body{
     background-position-x: -10%;
     background-position-y: 30%;
     background-size: 365px;
+    position: relative;
 }
 
 .evolve-with-us{
     grid-area: evolvewithus;
+    padding: 0px 70px;
+
+}
+
+.evolve-with-us > h1{
+    font-weight: 300;
+    font-size: 57px;
+    text-align: left;
+    line-height: 130%;
+    letter-spacing: -1px;
+}
+
+.evolve-with-us > p{
+    color: #323232;
+    font-weight: 300;
+    font-size: 27px;
+    text-align: left;
+    line-height: 150%;
 }
 
 .phone{
     grid-area: phone;
+    background: url("Assets/Phone\ Graphic.png");
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-position-y: 100%;
+    background-position-x: -20%;
+    grid-row-start: 1;
+
+}
+
+.phone > img{
+height: 1024px;
+justify-self: flex-end;
 }
 
 .read-less-know-more > h1{
@@ -69,4 +101,105 @@ body{
 
 .lighttext{
     color: #dddddd;
+}
+
+.submitbutton {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #F47E47;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    box-shadow: 0 1px 5px 0 rgba(244, 126, 71, 0.2);
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: -50px;
+    z-index: 5;
+    outline: none;
+    transition: 300ms;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.submitbutton:hover{
+    box-shadow: 0 4px 12px 0 rgba(244, 126, 71, 0.2);
+}
+
+.submitbutton:active{
+    background-color: rgb(230, 120, 69);
+    box-shadow: 0 1px 2px 0 rgba(244, 126, 71, 0.2);
+}
+
+.bene_form{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    max-width: 420px;
+}
+
+.inputemail {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 30px;
+    height: 60px;
+    outline: none;
+    backdrop-filter: blur(3px);
+    filter: drop-shadow(0px 6px 10px rgba(215, 226, 243, 0.4));
+    transition: 300ms;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.inputemail:hover{
+    filter: drop-shadow(0px 12px 20px rgba(215, 226, 243, 0.4));
+}
+.inputemail:focus{
+    filter: drop-shadow(0px 12px 20px rgba(244, 126, 71, 0.1));
+}
+
+.volv-highlight{
+    background-color: #FEF3E9;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    line-height: 150%;
+}
+
+.footer{
+    display: grid;
+    align-content: center;
+    grid-area: footer;
+    height: 150px;
+    background-color: #f2f2f2;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.footer > div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
 }
