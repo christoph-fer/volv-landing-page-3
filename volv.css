@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    padding: 40px;
+}
+
+.header > img{
+    height: 30px;
+}
+
+.content{
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "readlessknowmore readlessknowmore"
+    "evolvewithus phone";
+    padding: 50px;
+}
+
+.read-less-know-more{
+    grid-area: readlessknowmore;
+}
+
+.evolve-with-us{
+    grid-area: evolvewithus;
+}
+
+.phone{
+    grid-area: phone;
+}
