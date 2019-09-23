@@ -17,11 +17,13 @@ body{
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "readlessknowmore readlessknowmore"
     "evolvewithus phone";
-    padding: 50px;
+    padding: 0px 50px;
 }
 
 .read-less-know-more{
     grid-area: readlessknowmore;
+    justify-self: center;
+    height: 100vh;
 }
 
 .evolve-with-us{
@@ -30,4 +32,18 @@ body{
 
 .phone{
     grid-area: phone;
+}
+
+.read-less-know-more > h1{
+    font-weight: 300;
+    font-size: 54px;
+    text-align: center;
+    line-height: 130%;
+}
+
+.read-less-know-more > p{
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    line-height: 140%;
 }
