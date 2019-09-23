@@ -17,13 +17,19 @@ body{
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "readlessknowmore readlessknowmore"
     "evolvewithus phone";
-    padding: 0px 50px;
 }
 
 .read-less-know-more{
     grid-area: readlessknowmore;
-    justify-self: center;
+    /* justify-self: center; */
     height: 100vh;
+    background: url("Assets/V\ Light.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30%;
+    background-position-x: -10%;
+    background-position-y: 20%;
+    background-size: 330px;
 }
 
 .evolve-with-us{
@@ -45,5 +51,9 @@ body{
     font-weight: 300;
     font-size: 32px;
     text-align: center;
-    line-height: 140%;
+    line-height: 150%;
+}
+
+.lighttext{
+    color: #dddddd;
 }
