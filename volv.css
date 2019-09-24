@@ -1,11 +1,11 @@
 body{
     margin: 0px;
-    color: #323232;
+    /* color: #323232; */
 }
 
 .header{
     display: grid;
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
     grid-template-columns: auto auto;
 }
 
@@ -35,7 +35,7 @@ body{
 .read-less-know-more{
     grid-area: readlessknowmore;
     /* justify-self: center; */
-    height: 100vh;
+    height: 97vh;
     background: url("Assets/V\ Light.svg");
     background-repeat: no-repeat;
     background-position: left;
@@ -94,12 +94,13 @@ justify-self: flex-end;
 
 .read-less-know-more > p{
     font-weight: 300;
-    font-size: 31px;
+    font-size: 27px;
     text-align: center;
-    line-height: 150%;
+    line-height: 152%;
 }
 
 .lighttext{
+    font-weight: 100;
     color: #dddddd;
 }
 
@@ -171,7 +172,7 @@ justify-self: flex-end;
 .volv-highlight{
     background-color: #FEF3E9;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 21px;
     text-align: center;
     line-height: 150%;
 }
@@ -277,8 +278,47 @@ a:hover{
         background-size: 1100px;
         background-position-y: -100px;
         background-position-x: 0%;
-        height: 600px;
-    
+        height: 950px;
     }
-    
+}
+
+@media only screen and (max-width: 640px){
+    .read-less-know-more > h1{
+        margin-top: 100px;
+        font-size: 42px;
+    }
+    .read-less-know-more > p{
+        font-size: 17px;
+    }
+
+    .volv-logo{
+        height: 25px;
+        justify-self: flex-start;
+    }
+
+    .header{
+        padding: 20px;
+    }
+
+    .read-less-know-more{
+        background: none;
+    }
+
+    .phone{
+        background-position-y: -100px;
+        background-position-x: 10%;
+
+    }
+    .evolve-with-us > h1{
+        text-align: center;
+        font-size: 42px;
+    }
+    .evolve-with-us > p{
+        font-size: 21px;
+        text-align: center;
+    }
+    .volv-highlight{
+        font-size: 17px;
+        text-align: center;
+    }
 }
