@@ -412,6 +412,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 640px) {
+
+    
+
     h1 {
         margin-top: 100px;
         font-size: 42px;
@@ -432,6 +435,7 @@ a:hover {
 
     .read-less-know-more {
         background: none;
+        height: 50vh;
     }
 
     .phone {
