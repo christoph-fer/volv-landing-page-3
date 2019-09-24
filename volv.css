@@ -7,6 +7,7 @@ body{
     display: grid;
     padding: 40px 40px 0px 40px;
     grid-template-columns: auto auto;
+    align-self: flex-start;
 }
 
 .volv-logo{
@@ -42,20 +43,22 @@ body{
 .read-less-know-more{
     grid-area: readlessknowmore;
     /* justify-self: center; */
-    height: 97vh;
+    height: 90vh;
     background: url("Assets/V\ Light.svg");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 30%;
+    background-size: 35%;
     background-position-x: -10%;
-    background-position-y: 30%;
+    background-position-y: 70%;
     background-size: 365px;
     position: relative;
+    display: grid;
+    align-content: center;
 }
 
 .evolve-with-us{
     grid-area: evolvewithus;
-    padding: 0px 70px;
+    padding: 15% 10%;
 
 }
 
@@ -91,7 +94,7 @@ height: 1024px;
 justify-self: flex-end;
 }
 
-.read-less-know-more > h1{
+h1{
     font-weight: 300;
     font-size: 57px;
     text-align: center;
@@ -99,10 +102,11 @@ justify-self: flex-end;
     letter-spacing: -1px;
 }
 
-.read-less-know-more > p{
+p{
     font-weight: 300;
-    font-size: 27px;
+    font-size: 23px;
     text-align: center;
+    text-justify: auto;
     line-height: 152%;
 }
 
@@ -216,10 +220,10 @@ a:hover{
     .read-less-know-more{
         height: 720px;
     }
-    .read-less-know-more > h1{
+    h1{
         font-size: 48px;
     }
-    .read-less-know-more > p{
+    p{
         font-size: 26px;
     }
     .header{
@@ -234,16 +238,25 @@ a:hover{
     .header{
         padding: 60px;
     }
+
     
-    .read-less-know-more > h1{
+    
+    h1{
         font-size: 72px;
     }
-    .read-less-know-more > p{
+    p{
         font-size: 30px;
     }
     .phone{
         background-position-y: 80%;
         background-position-x: -20%;
+    }
+}
+
+@media only screen and (min-height: 1280px){
+    .phone{
+        background-size: 1100px;
+        background-position-y: 110%;
     }
 }
 
@@ -253,18 +266,11 @@ a:hover{
     }
 } */
 
-@media only screen and (max-width: 1200px){
-    .phone{
-        background-size: 1100px;
-        background-position-y: 100%;
-        background-position-x: -10%;
-    }
-}
 
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1280px){
     .phone{
         background-size: 1100px;
-        background-position-y: 70%;
         background-position-x: 4%;
     }
 }
@@ -326,11 +332,11 @@ a:hover{
 }
 
 @media only screen and (max-width: 640px){
-    .read-less-know-more > h1{
+    h1{
         margin-top: 100px;
         font-size: 42px;
     }
-    .read-less-know-more > p{
+    p{
         font-size: 17px;
     }
 
