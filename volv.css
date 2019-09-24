@@ -218,14 +218,14 @@ a:hover {
     text-decoration: underline;
 }
 
-@media only screen and (max-height: 640px){
-    
+@media only screen and (max-height: 600px){
+    .read-less-know-more{
+        height: 580px;
+    }
 }
 
 @media only screen and (max-height: 720px) {
-    .read-less-know-more {
-        height: 70vh;
-    }
+    
 
     h1 {
         font-size: 48px;
