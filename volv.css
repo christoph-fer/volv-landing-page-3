@@ -124,7 +124,7 @@ p {
     padding: 10px;
     width: 150px;
     height: 40px;
-    ;
+    
     letter-spacing: 1.5px;
     text-decoration: none;
     box-shadow: 0 1px 5px 0 rgba(244, 126, 71, 0.2);
@@ -255,9 +255,10 @@ a:hover {
         font-size: 30px;
     }
 
-    .phone {
-        background-position-y: 200%;
-    }
+    /* .phone {
+        background-position-y: 80%;
+        background-position-x: -20%;
+    } */
 }
 
 @media only screen and (min-height: 1280px) {
@@ -390,8 +391,17 @@ a:hover {
         background: url("Assets/Phone\ Graphic.png");
         background-repeat: no-repeat;
         background-size: 1100px;
-        background-position-x: -220%;
-        height: 950px;
+        background-position-x: 17em;
+        height: 1100px;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    .phone {
+        
+        background-size: 1100px;
+        background-position-x: 12em;
+        height: 1100px;
     }
 }
 
@@ -418,10 +428,10 @@ a:hover {
         background: none;
     }
 
-    /* .phone {
+    .phone {
         background-position-x: 10%;
 
-    } */
+    }
 
     .evolve-with-us {
         padding: 20px;
