@@ -435,12 +435,12 @@ a:hover {
 
     .read-less-know-more {
         background: none;
-        height: 50vh;
+        height: 60vh;
     }
 
     .phone {
         background-position-x: 10%;
-        background-position-y: -5vh;
+        background-position-y: -15vh;
         height: 1000px;
     }
 
