@@ -32,6 +32,13 @@ body{
     "footer footer";
 }
 
+.desktop-p{
+    display: block;
+}
+.mobile-p{
+    display: none;
+}
+
 .read-less-know-more{
     grid-area: readlessknowmore;
     /* justify-self: center; */
@@ -197,6 +204,7 @@ justify-self: flex-end;
 }
 
 a{
+    color: inherit;
     text-decoration: none;
     cursor: pointer;
 }
@@ -277,6 +285,12 @@ a:hover{
         "phone"
         "evolvewithus"
         "footer";
+    }
+    .desktop-p{
+        display: none;
+    }
+    .mobile-p{
+        display: block;
     }
     .inputemail {
         font-family: 'Lato', sans-serif;
