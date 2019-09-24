@@ -235,6 +235,10 @@ a:hover {
         font-size: 26px;
     }
 
+    .read-less-know-more{
+        background-position-y: 100%;
+    }
+
 
 
     .evolve-with-us>h1 {
@@ -245,7 +249,9 @@ a:hover {
 @media only screen and (min-height: 860px) {
 
 
-
+    .read-less-know-more{
+        background-position-y: 100%;
+    }
 
     h1 {
         font-size: 72px;
