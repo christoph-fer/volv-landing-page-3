@@ -129,7 +129,7 @@ p {
 
 .lighttext {
     font-weight: 100;
-    color: #f0f0f0;
+    color: #cccccc;
 }
 
 .submitbutton {
@@ -427,6 +427,7 @@ a:hover {
 
         background-size: 1100px;
         background-position-x: 12em;
+        grid-row: 2 / span 1;
         height: 1100px;
     }
 }
