@@ -66,7 +66,7 @@ body {
 .read-less-know-more {
     grid-area: readlessknowmore;
     /* justify-self: center; */
-    height: 75vh;
+    height: 80vh;
     background: url("Assets/V\ Light.svg");
     background-repeat: no-repeat;
     background-position: left;
@@ -267,6 +267,7 @@ a:hover {
         font-size: 48px;
     }
 }
+
 
 @media only screen and (min-height: 860px) {
 
@@ -490,5 +491,17 @@ a:hover {
 
     .bene_form {
         max-width: unset;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .read-less-know-more {
+        height: 420px;
+    }
+
+    .mobile-p {
+        font-size: 15px;
     }
 }
