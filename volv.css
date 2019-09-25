@@ -37,9 +37,7 @@ body {
 
 .desktop-p {
     display: block;
-    text-align-last: justify;
-    max-width: 420px;
-    margin: auto auto;
+    font-size: 24px;
 }
 
 .mobile-p {
@@ -106,16 +104,15 @@ h1 {
 
 p {
     font-weight: 300;
-    font-size: 21px;
     text-align: center;
     text-justify: auto;
     line-height: 152%;
-    color: #323232;
+    color: #000000;
 }
 
 .lighttext {
     font-weight: 100;
-    color: #c2c2c2;
+    color: #f0f0f0;
 }
 
 .submitbutton {
