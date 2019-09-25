@@ -54,11 +54,12 @@ body {
 
 .desktop-p {
     display: block;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .mobile-p {
     display: none;
+    font-size: 15px;
 }
 
 .read-less-know-more {
@@ -277,9 +278,6 @@ a:hover {
         font-size: 72px;
     }
 
-    p {
-        font-size: 30px;
-    }
 
     /* .phone {
         background-position-y: 80%;
@@ -383,13 +381,6 @@ a:hover {
             "footer";
     }
 
-    .desktop-p {
-        display: none;
-    }
-
-    .mobile-p {
-        display: block;
-    }
 
     .inputemail {
         font-family: 'Lato', sans-serif;
@@ -433,6 +424,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 640px) {
+    .desktop-p {
+        display: none;
+    }
+
+    .mobile-p {
+        display: block;
+    }
 
 
 
