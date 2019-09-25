@@ -32,10 +32,14 @@ body {
         "evolvewithus phone"
         "footer footer";
 
+
 }
 
 .desktop-p {
     display: block;
+    text-align-last: justify;
+    max-width: 420px;
+    margin: auto auto;
 }
 
 .mobile-p {
@@ -102,15 +106,16 @@ h1 {
 
 p {
     font-weight: 300;
-    font-size: 23px;
+    font-size: 21px;
     text-align: center;
     text-justify: auto;
     line-height: 152%;
+    color: #323232;
 }
 
 .lighttext {
     font-weight: 100;
-    color: #9f9f9f;
+    color: #c2c2c2;
 }
 
 .submitbutton {
@@ -192,9 +197,9 @@ p {
     display: grid;
     align-content: center;
     grid-area: footer;
-    height: 150px;
-    background-color: #f2f2f2;
-    color: #000;
+    height: 100px;
+    background-color: #fcfcfc;
+    color: rgb(89, 89, 89);
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: 400;
