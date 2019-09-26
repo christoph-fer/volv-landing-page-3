@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to bottom, #F2F6FC, white);
+    display: grid;
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    justify-self: center;
+    max-width: 720px;
+}
+
+.logo {
+    padding: 30px 0px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.content {
+    background: #ffffff;
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1));
+    padding: 30px;
+}
+
+.read-less-know-more {
+    font-weight: 300;
+    height: 80vh;
+    display: grid;
+    text-align: center;
+}
+
+.read-less-know-more h1 {
+    font-weight: 300;
+    font-size: 45px;
+    text-align: center;
+    line-height: 130%;
+    letter-spacing: -1px;
+}
+
+.mobile-p {
+    font-size: 17px;
+}
+
+.lighttext {
+    font-weight: 100;
+    color: #cccccc;
+}
