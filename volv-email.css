@@ -25,7 +25,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background: #ffffff;
-    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.05));
     padding: 20px 40px;
     grid-gap: 70px;
     margin: 0px 20px;
@@ -122,6 +122,7 @@ b {
 
 .phone>img {
     height: 400px;
+    filter: drop-shadow(0px 10px 40px #F2F6FC);
 }
 
 .bene_form {
