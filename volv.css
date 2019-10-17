@@ -119,7 +119,7 @@ body {
   background: url("Assets/Phone\ Graphic\ 2.png");
   background-repeat: no-repeat;
   background-size: 1100px;
-  background-position-y: 80vh;
+  background-position-y: 75vh;
   background-position-x: -20%;
   grid-row-start: 1;
 }
